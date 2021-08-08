@@ -61,36 +61,36 @@ const questions = () => {
 const generateREADME = (data) =>
 `# ${data.readmeName}
 
-#Table of Contents
+# Table of Contents
 
-  * [Description] (https://github.com/${data.username}/${data.gitrepo}#Description)
-  * [License] (https://github.com/${data.username}/${data.gitrepo}#License) 
-  * [Installation Intructions] (https://github.com/${data.username}/${data.gitrepo}#Installation Instructions)
-  * [Contributers] (https://github.com/${data.username}/${data.gitrepo}#Contributers)
-  * [Test Instructions] (https://github.com/${data.username}/${data.gitrepo}#Test Instructions)
-  * [Questions] (https://github.com/${data.username}/${data.gitrepo}#Questions)
+  * [Description](https://github.com/${data.username}/${data.gitrepo}#Description)
+  * [License](https://github.com/${data.username}/${data.gitrepo}#License) 
+  * [Installation Intructions](https://github.com/${data.username}/${data.gitrepo}#Installation Instructions)
+  * [Contributers](https://github.com/${data.username}/${data.gitrepo}#Contributers)
+  * [Test Instructions](https://github.com/${data.username}/${data.gitrepo}#Test Instructions)
+  * [Questions](https://github.com/${data.username}/${data.gitrepo}#Questions)
 
-#Description
+# Description
 
 * ${data.description}
 
-#License
+# License
 
   * This repository is released under the license of: [${data.license}](https://opensource.org/licenses/${data.license})
 
-#Installation Instructions
+# Installation Instructions
 
 * ${data.installation}
 
-#Contributers
+# Contributers
 
 * ${data.contribution}
 
-#Test Instructions
+# Test Instructions
 
 * ${data.test}
 
-#Questions
+# Questions
 
 Github: [${data.gitusername}](https://github.com/${data.gitusername}) Email: ${data.email}`
 ;
