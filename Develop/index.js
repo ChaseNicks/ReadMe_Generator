@@ -99,7 +99,7 @@ Github: [${data.gitusername}](https://github.com/${data.gitusername})\n\nEmail: 
 // TODO: Create a function to initialize app
 const init = () => {
     questions()
-      .then((data) => writeFileAsync(`TEST.md`, generateREADME(data)))
+      .then((data) => writeFileAsync(`README.md`, generateREADME(data)))
       .then(() => console.log('Successfully wrote to README.md'))
       .catch((err) => console.error(err));
   };
