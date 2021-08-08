@@ -64,12 +64,12 @@ const generateREADME = (data) =>
 
 # Table of Contents
 
-  [Description](https://github.com/${data.gitusername}/${data.gitrepo}#Description)\n\n
-  [License](https://github.com/${data.gitusername}/${data.gitrepo}#License)\n\n
-  [Installation Intructions](https://github.com/${data.gitusername}/${data.gitrepo}#Installation-Instructions) \n\n
-  [Contributers](https://github.com/${data.gitusername}/${data.gitrepo}#Contributers)\n\n
-  [Test Instructions](https://github.com/${data.gitusername}/${data.gitrepo}#Test-Instructions)\n\n
-  [Questions](https://github.com/${data.gitusername}/${data.gitrepo}#Questions)
+  🔎 [Description](https://github.com/${data.gitusername}/${data.gitrepo}#Description)\n\n
+  🔎 [License](https://github.com/${data.gitusername}/${data.gitrepo}#License)\n\n
+  🔎 [Installation Intructions](https://github.com/${data.gitusername}/${data.gitrepo}#Installation-Instructions) \n\n
+  🔎 [Contributers](https://github.com/${data.gitusername}/${data.gitrepo}#Contributers)\n\n
+  🔎 [Test Instructions](https://github.com/${data.gitusername}/${data.gitrepo}#Test-Instructions)\n\n
+  🔎 [Questions](https://github.com/${data.gitusername}/${data.gitrepo}#Questions)
 
 # Description
 
