@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
+
 const util = require('util');
 // TODO: Create an array of questions for user input
 const writeFileAsync = util.promisify(fs.writeFile);
@@ -16,6 +17,12 @@ const questions = () => {
         type: 'input',
         name: 'description',
         message: 'Provide a 3-5 sentences of the project / application!'
+      },
+      {
+        type: "list",
+        message: "Using the up/down arrow keys, select an appropriate license badge by clicking enter:",
+        choices: ["Apache-2.0", "MIT", "BSD-3-Clause", "gpl-3.0"],
+        name: "license",
       },
       {
         type: 'input',
@@ -39,8 +46,8 @@ const questions = () => {
       },
       {
         type: 'input',
-        name: 'gitlink',
-        message: 'What is your Github profile link?'
+        message: 'Github Repository Name?',
+        name: 'gitrepo'
       },
       {
         type: 'input',
@@ -52,40 +59,46 @@ const questions = () => {
 
 // TODO: Create a function to write README file
 const generateREADME = (data) =>
-`#${data.readmeName}
+`# ${data.readmeName}
 
-# Table of Contents
+#Table of Contents
 
-  * Description
-  * Installation Intructions
-  * Contribution Guidelines
-  * Test Instructions
+  * [Description] (https://github.com/${data.username}/${data.gitrepo}#Description)
+  * [License] (https://github.com/${data.username}/${data.gitrepo}#License) 
+  * [Installation Intructions] (https://github.com/${data.username}/${data.gitrepo}#Installation Instructions)
+  * [Contributers] (https://github.com/${data.username}/${data.gitrepo}#Contributers)
+  * [Test Instructions] (https://github.com/${data.username}/${data.gitrepo}#Test Instructions)
+  * [Questions] (https://github.com/${data.username}/${data.gitrepo}#Questions)
 
-# Description
+#Description
 
 * ${data.description}
 
-# Installation Instructions
+#License
+
+  * This repository is released under the license of: [${data.license}](https://opensource.org/licenses/${data.license})
+
+#Installation Instructions
 
 * ${data.installation}
 
-# Contribution Guidelines
+#Contributers
 
 * ${data.contribution}
 
-# Test Instructions
+#Test Instructions
 
 * ${data.test}
 
-# Questions
+#Questions
 
-Github Username: ${data.gitusernames}       Email: ${data.email}`
+Github: [${data.gitusername}](https://github.com/${data.gitusername}) Email: ${data.email}`
 ;
 
 // TODO: Create a function to initialize app
 const init = () => {
     questions()
-      .then((data) => writeFileAsync(`README.md`, generateREADME(data)))
+      .then((data) => writeFileAsync(`TEST.md`, generateREADME(data)))
       .then(() => console.log('Successfully wrote to README.md'))
       .catch((err) => console.error(err));
   };
