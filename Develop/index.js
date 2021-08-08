@@ -64,11 +64,11 @@ const generateREADME = (data) =>
 
 # Table of Contents
 
-  [Description](https://github.com/${data.gitusername}/${data.gitrepo}#Description)
-  [License](https://github.com/${data.gitusername}/${data.gitrepo}#License) 
-  [Installation Intructions](https://github.com/${data.gitusername}/${data.gitrepo}#Installation-Instructions)
-  [Contributers](https://github.com/${data.gitusername}/${data.gitrepo}#Contributers)
-  [Test Instructions](https://github.com/${data.gitusername}/${data.gitrepo}#Test-Instructions)
+  [Description](https://github.com/${data.gitusername}/${data.gitrepo}#Description)\n\n
+  [License](https://github.com/${data.gitusername}/${data.gitrepo}#License)\n\n
+  [Installation Intructions](https://github.com/${data.gitusername}/${data.gitrepo}#Installation-Instructions) \n\n
+  [Contributers](https://github.com/${data.gitusername}/${data.gitrepo}#Contributers)\n\n
+  [Test Instructions](https://github.com/${data.gitusername}/${data.gitrepo}#Test-Instructions)\n\n
   [Questions](https://github.com/${data.gitusername}/${data.gitrepo}#Questions)
 
 # Description
@@ -93,7 +93,7 @@ const generateREADME = (data) =>
 
 # Questions
 
-Github: [${data.gitusername}](https://github.com/${data.gitusername}) Email: ${data.email}`
+Github: [${data.gitusername}](https://github.com/${data.gitusername})\n\nEmail: ${data.email}`
 ;
 
 // TODO: Create a function to initialize app
