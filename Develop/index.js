@@ -64,32 +64,32 @@ const generateREADME = (data) =>
 
 # Table of Contents
 
-  * [Description](https://github.com/${data.username}/${data.gitrepo}#Description)
-  * [License](https://github.com/${data.username}/${data.gitrepo}#License) 
-  * [Installation Intructions](https://github.com/${data.username}/${data.gitrepo}#Installation-Instructions)
-  * [Contributers](https://github.com/${data.username}/${data.gitrepo}#Contributers)
-  * [Test Instructions](https://github.com/${data.username}/${data.gitrepo}#Test-Instructions)
-  * [Questions](https://github.com/${data.username}/${data.gitrepo}#Questions)
+  [Description](https://github.com/${data.gitusername}/${data.gitrepo}#Description)
+  [License](https://github.com/${data.gitusername}/${data.gitrepo}#License) 
+  [Installation Intructions](https://github.com/${data.gitusername}/${data.gitrepo}#Installation-Instructions)
+  [Contributers](https://github.com/${data.gitusername}/${data.gitrepo}#Contributers)
+  [Test Instructions](https://github.com/${data.gitusername}/${data.gitrepo}#Test-Instructions)
+  [Questions](https://github.com/${data.gitusername}/${data.gitrepo}#Questions)
 
 # Description
 
-* ${data.description}
+  ${data.description}
 
 # License
 
-  * This repository is released under the license of: [${data.license}](https://opensource.org/licenses/${data.license})
+  This repository is released under the license of: [${data.license}](https://opensource.org/licenses/${data.license})
 
 # Installation Instructions
 
-* ${data.installation}
+  ${data.installation}
 
 # Contributers
 
-* ${data.contribution}
+  ${data.contribution}
 
 # Test Instructions
 
-* ${data.test}
+  ${data.test}
 
 # Questions
 
