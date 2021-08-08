@@ -1,5 +1,6 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
+
 const fs = require('fs');
 
 const util = require('util');
@@ -65,9 +66,9 @@ const generateREADME = (data) =>
 
   * [Description](https://github.com/${data.username}/${data.gitrepo}#Description)
   * [License](https://github.com/${data.username}/${data.gitrepo}#License) 
-  * [Installation Intructions](https://github.com/${data.username}/${data.gitrepo}#Installation Instructions)
+  * [Installation Intructions](https://github.com/${data.username}/${data.gitrepo}#Installation-Instructions)
   * [Contributers](https://github.com/${data.username}/${data.gitrepo}#Contributers)
-  * [Test Instructions](https://github.com/${data.username}/${data.gitrepo}#Test Instructions)
+  * [Test Instructions](https://github.com/${data.username}/${data.gitrepo}#Test-Instructions)
   * [Questions](https://github.com/${data.username}/${data.gitrepo}#Questions)
 
 # Description
