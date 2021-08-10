@@ -1,8 +1,6 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
-
 const fs = require('fs');
-
 const util = require('util');
 // TODO: Create an array of questions for user input
 const writeFileAsync = util.promisify(fs.writeFile);
@@ -33,7 +31,7 @@ const questions = () => {
       {
         type: 'input',
         name: 'contribution',
-        message: 'Please provide your project / application contribution guidelines!'
+        message: 'Please provide those who contributed to the project / application!'
       },
       {
         type: 'input',
@@ -93,13 +91,13 @@ const generateREADME = (data) =>
 
 # Questions
 
-Github: [${data.gitusername}](https://github.com/${data.gitusername})\n\nEmail: ${data.email}`
+Github: [${data.gitusername}](https://github.com/${data.gitusername})\n\nEmail: 📧${data.email}`
 ;
 
 // TODO: Create a function to initialize app
 const init = () => {
     questions()
-      .then((data) => writeFileAsync(`README.md`, generateREADME(data)))
+      .then((data) => writeFileAsync(`sample.md`, generateREADME(data)))
       .then(() => console.log('Successfully wrote to README.md'))
       .catch((err) => console.error(err));
   };

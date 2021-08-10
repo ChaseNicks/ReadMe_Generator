@@ -1,46 +1,25 @@
-# FaceBook
-
-# Table of Contents
-
-  🔎 [Description](https://github.com/ChaseNicks/ReadMe_Generator#Description)
-
-
-  🔎 [License](https://github.com/ChaseNicks/ReadMe_Generator#License)
-
-
-  🔎 [Installation Intructions](https://github.com/ChaseNicks/ReadMe_Generator#Installation-Instructions) 
-
-
-  🔎 [Contributers](https://github.com/ChaseNicks/ReadMe_Generator#Contributers)
-
-
-  🔎 [Test Instructions](https://github.com/ChaseNicks/ReadMe_Generator#Test-Instructions)
-
-
-  🔎 [Questions](https://github.com/ChaseNicks/ReadMe_Generator#Questions)
+# README Generator
 
 # Description
 
-  When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions—this last part increases the likelihood that other developers will contribute to the success of the project
+A command-line application that accepts user input and is prompted the following information about the 
+application repository. A high-quality, professional README.md is generated with the title of project and 
+sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and 
+Questions (will provide users Github and email address). When clicking on the links in the Table of Contents
+you're taken to the corresponding section of the README.
 
-# License
+# Technologies
 
-  This repository is released under the license of: [MIT](https://opensource.org/licenses/MIT)
+  * Node.js
+  * npm
+  * JS
 
-# Installation Instructions
+# Demo Application Video
 
-  When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions—this last part increases the likelihood that other developers will contribute to the success of the project
+[Demo](./demo_vid/demo_vid.mp4)
 
-# Contributers
-
-  When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions—this last part increases the likelihood that other developers will contribute to the success of the project
-
-# Test Instructions
-
-  When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions—this last part increases the likelihood that other developers will contribute to the success of the project
-
-# Questions
+# Want to reach out?
 
 Github: [ChaseNicks](https://github.com/ChaseNicks)
 
-Email: chasenicks81@gmail.com'
+Email: chasenicks81@gmail.com
