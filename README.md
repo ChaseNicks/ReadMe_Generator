@@ -16,7 +16,7 @@ you're taken to the corresponding section of the README.
 
 # Demo Application Video
 
-[![Demo](./demo_vid/demo_vid.js.gif)]
+![Demo](./demo_vid/demo_vid.js.gif)
 
 # Want to reach out?
 
