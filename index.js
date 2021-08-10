@@ -97,6 +97,7 @@ Github: [${data.gitusername}](https://github.com/${data.gitusername})\n\nEmail: 
 // TODO: Create a function to initialize app
 const init = () => {
     questions()
+    // Change 'sample.md' to 'README.md'
       .then((data) => writeFileAsync(`sample.md`, generateREADME(data)))
       .then(() => console.log('Successfully wrote to README.md'))
       .catch((err) => console.error(err));
